@@ -14,7 +14,7 @@ def median(vals):
     """beta implementation"""
     def median(vals):
     vals.sort()
-    z = len(vals)	# here's a comment
+    listlength = len(vals)	# here's a comment
     index = z / 2
     if z % 2 == 0:
        return mean([vals[index], vals[index - 1]])
